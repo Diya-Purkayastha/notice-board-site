@@ -57,4 +57,3 @@ Built with **React**, **Tailwind CSS**, and API integration with the backend ser
 
 ---
 
-## 📁 Folder Structure  
