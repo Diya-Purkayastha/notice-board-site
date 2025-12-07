@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* @plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+   --color-primary: #2F4550;    
+  --color-secondary: #586F7C;  
+  --color-accent: #B8DBD9;     
+  --color-neutral: #f4f4f4;    
+  --color-base-100: #ffffff;   
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+   --color-primary: #A9BCD0;    
+  --color-secondary: #3B3B3B;  
+  --color-accent: #669BBC;     
+  --color-neutral: #1c1c1c;    
+  --color-base-100: #252525;   
+}
+.btn {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+} */
+@theme {
+  --color-my-primary: #2e3192;      /* Deep Blue – main brand color */
+  --color-my-secondary: #3f51b5;    /* Softer Indigo Blue */
+  --color-my-accent: #5c6bc0;       /* Muted light blue accent */
+  --color-my-neutral: #eef1f8;      /* Soft cool-neutral background */
+  --color-my-base-100: #ffffff;     /* Clean white */
+}
+
+*{
+
+  font-family: "Noto Serif", serif;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
